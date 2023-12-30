@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Hatıra Resim</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+
+
+
+
+<body>
+
+  <div class="img-container">
+    <h2>Cumhuriyet Fazilettir</h2>
+  </div>
+  
+  <div class="hero align-items-center vh-100">
+    <div class="container">
+    <div class="row justify-content-around">
+      <div class="col-4 align-self-start">
+        <br>
+        <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+          Mezuniyet
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+          <li id="dropdown-list"></li>
+        </ul>
+      </div>
+      <div class="col-8 align-self-center">
+        <div class="d-flex align-items-center"> <img id="processedImage" class="img-fluid" src="images/profile2.png" alt="Processed Image" style="max-width: 500px;"></div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+  
+
+
+  <div class="footer">
+    <p>Site by Ahmet Alptekin</p>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    // Assuming the filenames array is available in JavaScript
+    const filenames = ['c100_122.jpg', 'c100_140.jpg','c100_167.jpg', 'c100_168.jpg', 'c100_169.jpg', 
+    'c100_170.jpg', 'c100_171.jpg', 'c100_173.jpg', 'c100_174.jpg', 'c100_175.jpg', 'c100_179.jpg', 
+    'c100_181.jpg', 'c100_183.jpg', 'c100_185.jpg', 'c100_186.jpg', 'c100_189.jpg', 'c100_190.jpg', 
+    'c100_191.jpg', 'c100_192.jpg', 'c100_193.jpg', 'c100_194.jpg', 'c100_195.jpg', 'c100_196.jpg', 
+    'c100_197.jpg', 'c100_200.jpg', 'c100_201.jpg', 'c100_203.jpg', 'c100_204.jpg', 'c100_205.jpg', 
+    'c100_206.jpg', 'c100_207.jpg', 'c100_209.jpg', 'c100_211.jpg', 'c100_213.jpg', 'c100_219.jpg', 
+    'c100_220.jpg', 'c100_221.jpg', 'c100_223.jpg', 'c100_224.jpg', 'c100_229.jpg', 'c100_231.jpg', 
+    'c100_232.jpg', 'c100_233.jpg', 'c100_241.jpg', 'c100_243.jpg', 'c100_261.jpg', 'c100_318.jpg', 
+    'c100_374.jpg', 'c100_430.jpg', 'c100_431.jpg', 'c100_462.jpg', 'c100_484.jpg', 'c100_596.jpg', 
+    'c100_602.jpg', 'c100_603.jpg', 'c100_609.jpg', 'c100_612.jpg', 'c100_614.jpg', 'c100_616.jpg', 
+    'c100_619.jpg', 'c100_621.jpg', 'c100_622.jpg', 'c100_623.jpg', 'c100_625.jpg', 'c100_628.jpg', 
+    'c100_629.jpg', 'c100_630.jpg', 'c100_631.jpg', 'c100_632.jpg', 'c100_635.jpg', 'c100_637.jpg', 
+    'c100_638.jpg', 'c100_640.jpg', 'c100_643.jpg', 'c100_645.jpg', 'c100_774.jpg'];
+
+    // Populate dropdown directly from the array
+    const dropdownList = document.getElementById('dropdown-list');
+    filenames.forEach(filename => {
+      const listItem = document.createElement('li');
+      const link = document.createElement('a');
+      link.classList.add('dropdown-item');
+      link.href = '#';
+      link.dataset.imageFilename = filename;
+      link.textContent = filename.split('.')[0]; // Display filename without extension
+      listItem.appendChild(link);
+      dropdownList.appendChild(listItem);
+    });
+
+    // Handle image display on dropdown change (same as before)
+    document.querySelector('.dropdown-menu').addEventListener('click', function(event) {
+      const selectedFilename = event.target.dataset.imageFilename;
+      const imageSrc = `img/${selectedFilename}`; // Assuming images are in the 'img' folder
+      
+      // document.getElementById('selected-image').src = imageSrc;
+      document.getElementById('processedImage').src = imageSrc;
+    });
+
+
+  </script>
+</body>
+</html>
