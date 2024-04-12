@@ -5,7 +5,6 @@ Parse.serverURL = 'https://burda-aaa-01.herokuapp.com/parse';
 let profilePic = document.getElementById("profile-pic");
 let inputFile = document.getElementById("input-file");
 let uploadFileLabel = document.getElementById("upload-file-label");
-const errorMessageElement = document.getElementById('error-message');
 
 console.log("test 60");
 
@@ -57,12 +56,10 @@ async function savePicture() {
         // Save the Parse Object
         const result = await picture.save();
         console.log('Picture saved successfully:', result);
-        errorMessageElement.textContent = result;
         profilePic.src = "images/ok.png";    
         uploadFileLabel.style.visibility = "visible";
     } catch (error) {
         console.error('Error saving picture:', error);
-        errorMessageElement.textContent = error;
         profilePic.src = "images/nok.png";    
         uploadFileLabel.style.visibility = "visible";
     }

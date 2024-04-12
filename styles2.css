@@ -88,8 +88,8 @@ footer {
     }
 
 .image {
-    width: 95%; /* Make image fit the column width */
-    transform: rotate(45deg);
+    width: 100%; /* Make image fit the column width */
+    border-radius: 25px;
     height: auto;
 }
 
