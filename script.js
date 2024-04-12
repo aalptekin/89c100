@@ -1,6 +1,6 @@
 // Initialize Parse Server
 Parse.initialize("burDaliPLstPolKtA7ozgIUXgvgIAbsEDDRRaall", "nlAyYXfDQpZY7cMixJCodO0rGpOrt9iAfjKfvYLd");
-Parse.serverURL = 'http://burda-aaa-01.herokuapp.com/parse';
+Parse.serverURL = 'https://burda-aaa-01.herokuapp.com/parse';
 
 let profilePic = document.getElementById("profile-pic");
 let inputFile = document.getElementById("input-file");
