@@ -57,6 +57,7 @@ async function savePicture() {
         // Save the Parse Object
         const result = await picture.save();
         console.log('Picture saved successfully:', result);
+        errorMessageElement.textContent = result;
         profilePic.src = "images/ok.png";    
         uploadFileLabel.style.visibility = "visible";
     } catch (error) {
