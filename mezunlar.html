@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Pictures</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+
+    <div class="header">
+        <h1>TAC89 Homecoming 35.Yıl</h1>
+    </div>
+
+    <h2>Mezuniyet Resimleri</h2>
+    <hr style="height:2px;border:none;color:#333;background-color:#333;">
+    <br />
+    <p><a href="https://aaa-www-02-2eb0da1c9758.herokuapp.com/">Resim göndermek için</a></p>
+    <br />
+    <br />
+
+    <div class="picture-container" id="pictureContainer">
+        <!-- Pictures will be dynamically added here -->
+    </div>
+
+    <script>
+        // List of picture file names
+        const pictureNames = [
+            'Oguz Yilmaz.jpg',
+            'Cengiz Yilmaz.jpg',
+            'Cem Kucukcan.jpg',
+            'Ahmet Alptekin.jpg',
+            // Add more picture names as needed
+        ];
+
+        // Get the picture container element
+        const pictureContainer = document.getElementById('pictureContainer');
+
+        // Loop through each picture name and create picture elements
+        pictureNames.forEach(pictureName => {
+            // Create picture frame element
+            const pictureFrame = document.createElement('div');
+            pictureFrame.classList.add('picture-frame');
+
+            // Create image element
+            const img = document.createElement('img');
+            img.src = 'images/resimler/' + pictureName; // Assuming 'resimler' is the subfolder
+            img.alt = pictureName;
+            pictureFrame.appendChild(img);
+
+             // Create picture name element
+             const pictureNameElement = document.createElement('div');
+            pictureNameElement.classList.add('picture-name');
+            pictureNameElement.textContent = pictureName.split('.')[0]; // Display picture name without extension
+            pictureFrame.appendChild(pictureNameElement);
+
+            // Append picture frame to container
+            pictureContainer.appendChild(pictureFrame);
+        });
+    </script>
+</body>
+</html>

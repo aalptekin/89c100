@@ -112,3 +112,29 @@ footer {
     background: #1a7be0;
     color: #fff;
 }
+
+.picture-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.picture-frame {
+  width: 120px; /* Adjust the width as needed */
+  height: 120px; /* Adjust the height as needed */
+  text-align: center;
+  border-radius: 10px; /* Adjust the border radius as needed */
+  border: 1px solid #ccc; /* Add a border for better visibility */
+}
+
+.picture-frame img {
+  max-width: 100%;
+  max-height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.picture-name {
+  margin-top: 5px;
+  font-size: 12px;
+}
