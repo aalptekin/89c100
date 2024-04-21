@@ -1,120 +1,143 @@
 *{
-  margin: 0;
-  padding: 0;
-  font-family: 'Poppins', sans-serif;
-  box-sizing: border-box;
-}
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+  }
+  
+  .hero {
+    width: 100%;
+    height: 100vh;
+    background: #482e2e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hero img#processedImage {
+    background-color: #d71515;
+    border-radius: 15%;
+  }
+  
+  .card {
+    width: 20%;
+    border-radius: 15px;
+    text-align: center;
+    margin-right: 5%;
+  }
+  
+  .card2 {
+    width: 20%;
+    border-radius: 15px;
+    text-align: center;
+    margin-right: 5%;
+  }
+  
+  .card h2 {
+    color: #505850;
+    font-size: 2vw;
+  }
+  
+  .card2 h2 {
+    color: #d6e3d6;
+    font-size: 2vw;
+  }
+  
+  .card img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+    margin-top: 10px;
+    margin-bottom: 5%;
+    object-fit: contain;
+  }
+  
+  .card2 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+    margin-top: 10px;
+    margin-bottom: 5%;
+    object-fit: contain;
+  }
+  
+  label {
+    display: block;
+    width: 75%;
+    background: #6434eb;
+    color: #fff;
+    padding: 5%;
+    align-self: center;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input {
+    display: none;
+  }
+  
+  .footer {
+    font-size: small;
+    text-align: center;
+  }
+  
+  .big-blue-button {
+    background-color: #6434eb; /* Adjust orange shade if needed */
+    color: #fff; /* Text color should contrast with background */
+    font-size: auto; /* Adjust font size as desired */
+    padding: 1% 2%; /* Adjust padding for desired button size */
+    border: none; /* Remove default border */
+    border-radius: 15%; /* Set round corners */
+    cursor: pointer; /* Make button clickable */
+    transition: all 0.2s ease-in-out; /* Add hover effect */
+    height: 15%;
+    text-align: center;
+  }
+  
+  .big-blue-button:hover {
+    background-color: #7160c5; /* Slightly darken on hover */
+  }
+  
+  .img-container{
+    background-image: url('images/TCBayrak.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .img-container h2 {
+    margin-bottom: 0px;
+    text-align: center;
+    color: #c1cec1;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  }
+  
+  
+  .dropdown-thin a {
+    height: 25px;
+    padding-top: 2px;
+  }
 
-.hero {
-  width: 100%;
-  height: 100vh;
-  background: #482e2e;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    }
 
-.hero img#processedImage {
-  background-color: #d71515;
-  border-radius: 15%;
-}
+    .picture {
+    width: calc(33.33% - 10px);
+    cursor: pointer;
+    }
 
-.card {
-  width: 20%;
-  border-radius: 15px;
-  text-align: center;
-  margin-right: 5%;
-}
+    .picture img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    transition: transform 0.2s;
+    }
 
-.card2 {
-  width: 20%;
-  border-radius: 15px;
-  text-align: center;
-  margin-right: 5%;
-}
-
-.card h2 {
-  color: #505850;
-  font-size: 2vw;
-}
-
-.card2 h2 {
-  color: #d6e3d6;
-  font-size: 2vw;
-}
-
-.card img {
-  width: 100%;
-  height: 100%;
-  border-radius: 5%;
-  margin-top: 10px;
-  margin-bottom: 5%;
-  object-fit: contain;
-}
-
-.card2 img {
-  width: 100%;
-  height: 100%;
-  border-radius: 5%;
-  margin-top: 10px;
-  margin-bottom: 5%;
-  object-fit: contain;
-}
-
-label {
-  display: block;
-  width: 75%;
-  background: #6434eb;
-  color: #fff;
-  padding: 5%;
-  align-self: center;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-input {
-  display: none;
-}
-
-.footer {
-  font-size: small;
-  text-align: center;
-}
-
-.big-blue-button {
-  background-color: #6434eb; /* Adjust orange shade if needed */
-  color: #fff; /* Text color should contrast with background */
-  font-size: auto; /* Adjust font size as desired */
-  padding: 1% 2%; /* Adjust padding for desired button size */
-  border: none; /* Remove default border */
-  border-radius: 15%; /* Set round corners */
-  cursor: pointer; /* Make button clickable */
-  transition: all 0.2s ease-in-out; /* Add hover effect */
-  height: 15%;
-  text-align: center;
-}
-
-.big-blue-button:hover {
-  background-color: #7160c5; /* Slightly darken on hover */
-}
-
-.img-container{
-  background-image: url('images/TCBayrak.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
-.img-container h2 {
-  margin-bottom: 0px;
-  text-align: center;
-  color: #c1cec1;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
-}
-
-
-.dropdown-thin a {
-  height: 25px;
-  padding-top: 2px;
+    .picture img:hover {
+    transform: scale(1.05);
 }
