@@ -75,6 +75,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
     let birthdayImageFound = false;
 
+    // Define mottos for each image (example mappings)
+    const mottos = {
+        "2302": "Yaş 54 oluvermiş bile, zaman öyle hızlı ilerlemeye başladı ki yakalamak mümkün değil. Önümüzde sağlıkla yaşayacağımız yılların kıymetini bilip, anın keyfini sonuna kadar hep birlikte çıkarmak dileğiyle hepinize çok teşekkürler.",
+        "0101": "Dream big and achieve more!"
+    };
+
     document.querySelectorAll('.month-images img').forEach(image => {
         const filename = image.src.split('/').pop();
         const imageDate = filename.substring(0, 4); // Extract DDMM
@@ -82,36 +88,20 @@ document.addEventListener('DOMContentLoaded', () => {
         if (imageDate === currentDate) {
             birthdayImageFound = true;
 
-            // Automatically enlarge the image
-            image.classList.add('enlarged');
-            image.style.zIndex = '1000'; // Ensure it stays on top
-            image.style.position = 'relative'; // Ensure proper positioning
-            image.style.transform = 'scale(2)'; // Enlarge the image
+            // Enlarge the image
+            toggleImageSize(image);
 
-            // Extract text to display below the image
+            // Extract text to display
             const day = filename.substring(0, 2);
             const monthNumber = parseInt(filename.substring(2, 4), 10);
             const months = ["Ocak", "Şubat", "Mart", "Nisan", "Mayıs", "Haziran", "Temmuz", "Ağustos", "Eylül", "Ekim", "Kasım", "Aralık"];
             const monthName = months[monthNumber - 1] || "Unknown";
             const textToDisplay = `${day}-${monthName}`;
-
-            // Create and display the label inside the enlarged image
-            const label = document.createElement('div');
-            label.classList.add('image-label');
-            label.textContent = textToDisplay;
-            label.style.position = 'absolute';
-            label.style.color = 'white';
-            label.style.backgroundColor = 'rgba(0, 0, 0, 0.7)';
-            label.style.padding = '5px 10px';
-            label.style.borderRadius = '5px';
-            label.style.bottom = '5px'; // Position at the bottom inside the image
-            label.style.left = '50%';
-            label.style.transform = 'translate(-50%, 0)'; // Center horizontally
-            label.style.zIndex = '1001';
-            label.style.width = 'auto';
-
-            image.parentElement.style.position = 'relative';
-            image.parentElement.appendChild(label);
+            
+            // Get motto
+            const motto = mottos[imageDate] || "Keep shining and stay positive!";
+            
+            displayPopup(`${textToDisplay}\n${motto}`);
         }
     });
 
@@ -120,85 +110,78 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 });
 
-// Ensure images remain clickable for toggling size
-document.addEventListener('click', (event) => {
-    if (event.target.tagName === 'IMG' && event.target.closest('.month-images')) {
-        const allImages = document.querySelectorAll('.month-images img');
-        const image = event.target;
-
-        // If the clicked image is already enlarged, revert it to original size
-        if (image.classList.contains('enlarged')) {
-            image.classList.remove('enlarged');
-            image.style.zIndex = ''; // Reset z-index
-            image.style.position = ''; // Reset position
-            image.style.transform = ''; // Reset transform
-            const label = image.parentElement.querySelector('.image-label');
-            if (label) label.remove(); // Remove the text label
-            return; // Exit function to prevent re-enlarging
-        }
-
-        // Remove enlarged styles and labels from all images
+// Function to toggle image size
+function toggleImageSize(image) {
+    const allImages = document.querySelectorAll('.month-images img');
+    
+    if (image.classList.contains('enlarged')) {
+        // If the clicked image is already enlarged, shrink it back
+        image.classList.remove('enlarged');
+        image.style.zIndex = '';
+        image.style.position = '';
+        image.style.transform = '';
+    } else {
+        // Reset all other images first
         allImages.forEach(img => {
             img.classList.remove('enlarged');
-            img.style.zIndex = ''; // Reset z-index
-            img.style.position = ''; // Reset position
-            img.style.transform = ''; // Reset transform
-            const label = img.parentElement.querySelector('.image-label');
-            if (label) label.remove(); // Remove the text label
+            img.style.zIndex = '';
+            img.style.position = '';
+            img.style.transform = '';
         });
-
+        
         // Enlarge the clicked image
         image.classList.add('enlarged');
-        image.style.zIndex = '1000'; // Ensure it stays on top
-        image.style.position = 'relative'; // Ensure proper positioning
-        image.style.transform = 'scale(2)'; // Enlarge the image
+        image.style.zIndex = '1000';
+        image.style.position = 'relative';
+        image.style.transform = 'scale(2)';
+    }
+}
 
-        // Extract the first 4 characters of the filename
+// Function to create and show a popup at the top of the page
+function displayPopup(text) {
+    const popup = document.createElement('div');
+    popup.innerHTML = text.replace(/\n/g, '<br>');
+    popup.style.position = 'fixed';
+    popup.style.top = '10px';
+    popup.style.left = '50%';
+    popup.style.transform = 'translateX(-50%)';
+    popup.style.backgroundColor = 'rgba(0, 0, 0, 0.8)';
+    popup.style.color = 'white';
+    popup.style.padding = '10px 20px';
+    popup.style.borderRadius = '5px';
+    popup.style.fontSize = '16px';
+    popup.style.zIndex = '2000';
+    popup.style.textAlign = 'center';
+
+    document.body.appendChild(popup);
+    
+    setTimeout(() => {
+        popup.remove();
+    }, 10000); // Remove after 10 seconds
+}
+
+// Ensure images toggle size and display the label as a popup when clicked
+document.addEventListener('click', (event) => {
+    if (event.target.tagName === 'IMG' && event.target.closest('.month-images')) {
+        const image = event.target;
+        toggleImageSize(image);
+        
         const filename = image.src.split('/').pop();
-        const day = filename.substring(0, 2); // First two characters (day)
-        const monthNumber = parseInt(filename.substring(2, 4), 10); // Last two characters (month as number)
+        const day = filename.substring(0, 2);
+        const monthNumber = parseInt(filename.substring(2, 4), 10);
 
-        // Map month number to month name
         const months = ["Ocak", "Şubat", "Mart", "Nisan", "Mayıs", "Haziran", "Temmuz", "Ağustos", "Eylül", "Ekim", "Kasım", "Aralık"];
-        const monthName = months[monthNumber - 1] || "Unknown"; // Handle invalid cases
+        const monthName = months[monthNumber - 1] || "Unknown";
         const textToDisplay = `${day}-${monthName}`;
 
-        // Create and display the label inside the enlarged image, at the bottom
-        const label = document.createElement('div');
-        label.classList.add('image-label');
-        label.textContent = textToDisplay;
-        label.style.position = 'absolute';
-        label.style.color = 'white';
-        label.style.backgroundColor = 'rgba(0, 0, 0, 0.7)';
-        label.style.padding = '5px 10px';
-        label.style.borderRadius = '5px';
-        label.style.bottom = '5px'; // Position at the bottom inside the image
-        label.style.left = '50%';
-        label.style.transform = 'translate(-50%, 0)'; // Center horizontally
-        label.style.zIndex = '1001';
-        label.style.width = 'auto';
+        // Get motto
+        const mottos = {
+            "2302": "Yaş 54 oluvermiş bile, zaman öyle hızlı ilerlemeye başladı ki yakalamak mümkün değil. Önümüzde sağlıkla yaşayacağımız yılların kıymetini bilip, anın keyfini sonuna kadar hep birlikte çıkarmak dileğiyle hepinize çok teşekkürler.",
+            "0101": "Dream big and achieve more!"
+        };
+        const imageDate = filename.substring(0, 4);
+        const motto = mottos[imageDate] || "Mesajını bekliyoruz.";
 
-        image.parentElement.style.position = 'relative'; // Ensure parent container allows absolute positioning
-        image.parentElement.appendChild(label);
+        displayPopup(`${textToDisplay}\n${motto}`);
     }
 });
-
-
-
-
-
-
-document.addEventListener('DOMContentLoaded', () => {
-    const footer = document.createElement('footer');
-    footer.textContent = "TAC89 © 2025";
-    footer.style.position = 'bottom';
-    footer.style.bottom = '0';
-    footer.style.left = '0';
-    footer.style.width = '100%';
-    footer.style.color = 'gray';
-    footer.style.textAlign = 'center';
-    footer.style.padding = '10px 0';
-
-    document.body.appendChild(footer);
-});
-
