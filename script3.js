@@ -78,7 +78,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Define mottos for each image (example mappings)
     const mottos = {
         "2302": "Yaş 54 oluvermiş bile, zaman öyle hızlı ilerlemeye başladı ki yakalamak mümkün değil. Önümüzde sağlıkla yaşayacağımız yılların kıymetini bilip, anın keyfini sonuna kadar hep birlikte çıkarmak dileğiyle hepinize çok teşekkürler.",
-        "0101": "Dream big and achieve more!"
+        "2802": "Sagolun sevgili arkadaşlar🤗 Alper sen de sağol🤗 Birlikte nice mutlu doğum günleri kutlarız umarim"
     };
 
     document.querySelectorAll('.month-images img').forEach(image => {
@@ -177,7 +177,7 @@ document.addEventListener('click', (event) => {
         // Get motto
         const mottos = {
             "2302": "Yaş 54 oluvermiş bile, zaman öyle hızlı ilerlemeye başladı ki yakalamak mümkün değil. Önümüzde sağlıkla yaşayacağımız yılların kıymetini bilip, anın keyfini sonuna kadar hep birlikte çıkarmak dileğiyle hepinize çok teşekkürler.",
-            "0101": "Dream big and achieve more!"
+            "2802": "Sagolun sevgili arkadaşlar🤗 Alper sen de sağol🤗 Birlikte nice mutlu doğum günleri kutlarız umarim"
         };
         const imageDate = filename.substring(0, 4);
         const motto = mottos[imageDate] || "Mesajını bekliyoruz.";
