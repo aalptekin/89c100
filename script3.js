@@ -9,7 +9,8 @@ const images = [
 '2101_612_KSARPER.JPG', 
 '0602_170_CKURTOGLU.JPG', '0902_621_DAYDEMIR.JPG', '1002_203_AKORUCU.JPG', '1202_194_NSOYBAS.JPG', 
 '1402_613_CYILMAZ.JPG', '2302_602_KKOZACIOGLU.JPG', '2802_231_MULUYURT.JPG', 
-'1003_484_BOZTURK.JPG', '1203_173_CTAMAM.JPG', '1603_220_APALABIYIK.JPG', '1703_619_TYALCIN.JPG', 
+'0803_645_UENER.JPG', '1003_484_BOZTURK.JPG', '1203_173_CTAMAM.JPG', 
+'1603_220_APALABIYIK.JPG', '1703_619_TYALCIN.JPG', 
 '2303_643_DBOZBEY.JPG', '2703_631_VPEK.JPG', '2803_177_OMERAY.JPG', 
 '0104_623_NGULNAR.JPG', '0404_140_EACIMIS.JPG', '0504_235_SOZDIL.JPG', 
 '1004_629_CKUCUKCAN.JPG', '1204_192_TUTKU.JPG', '1404_209_TKUTLU.JPG', 
@@ -78,7 +79,9 @@ document.addEventListener('DOMContentLoaded', () => {
     // Define mottos for each image (example mappings)
     const mottos = {
         "2302": "Yaş 54 oluvermiş bile, zaman öyle hızlı ilerlemeye başladı ki yakalamak mümkün değil. Önümüzde sağlıkla yaşayacağımız yılların kıymetini bilip, anın keyfini sonuna kadar hep birlikte çıkarmak dileğiyle hepinize çok teşekkürler.",
-        "2802": "Sagolun sevgili arkadaşlar🤗 Alper sen de sağol🤗 Birlikte nice mutlu doğum günleri kutlarız umarim"
+        "2802": "Sagolun sevgili arkadaşlar🤗 Alper sen de sağol🤗 Birlikte nice mutlu doğum günleri kutlarız umarim",
+        "0803": "Teşekkür ediyorum 🙏🙏🙏",
+        "1003": "Çok teşekkür ederim hepinize canlarım. 🌺"       
     };
 
     document.querySelectorAll('.month-images img').forEach(image => {
@@ -177,7 +180,9 @@ document.addEventListener('click', (event) => {
         // Get motto
         const mottos = {
             "2302": "Yaş 54 oluvermiş bile, zaman öyle hızlı ilerlemeye başladı ki yakalamak mümkün değil. Önümüzde sağlıkla yaşayacağımız yılların kıymetini bilip, anın keyfini sonuna kadar hep birlikte çıkarmak dileğiyle hepinize çok teşekkürler.",
-            "2802": "Sagolun sevgili arkadaşlar🤗 Alper sen de sağol🤗 Birlikte nice mutlu doğum günleri kutlarız umarim"
+            "2802": "Sagolun sevgili arkadaşlar🤗 Alper sen de sağol🤗 Birlikte nice mutlu doğum günleri kutlarız umarim",
+            "0803": "Teşekkür ediyorum 🙏🙏🙏",
+            "1003": "Çok teşekkür ederim hepinize canlarım. 🌺"
         };
         const imageDate = filename.substring(0, 4);
         const motto = mottos[imageDate] || "Mesajını bekliyoruz.";
