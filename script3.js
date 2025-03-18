@@ -81,7 +81,9 @@ document.addEventListener('DOMContentLoaded', () => {
         "2302": "Yaş 54 oluvermiş bile, zaman öyle hızlı ilerlemeye başladı ki yakalamak mümkün değil. Önümüzde sağlıkla yaşayacağımız yılların kıymetini bilip, anın keyfini sonuna kadar hep birlikte çıkarmak dileğiyle hepinize çok teşekkürler.",
         "2802": "Sagolun sevgili arkadaşlar🤗 Alper sen de sağol🤗 Birlikte nice mutlu doğum günleri kutlarız umarim",
         "0803": "Teşekkür ediyorum 🙏🙏🙏",
-        "1003": "Çok teşekkür ederim hepinize canlarım. 🌺"       
+        "1003": "Çok teşekkür ederim hepinize canlarım. 🌺",
+        "1203": "Teşekkür ederim dostlarım iyi ki varsınız ❤️",
+        "1703": "🤩 Arkadaşlar hepinize tek tek yürekten sevgilerimi gönderiyorum, iyiki varsınız , teşekkürler ♥️🥰"    
     };
 
     document.querySelectorAll('.month-images img').forEach(image => {
@@ -182,7 +184,9 @@ document.addEventListener('click', (event) => {
             "2302": "Yaş 54 oluvermiş bile, zaman öyle hızlı ilerlemeye başladı ki yakalamak mümkün değil. Önümüzde sağlıkla yaşayacağımız yılların kıymetini bilip, anın keyfini sonuna kadar hep birlikte çıkarmak dileğiyle hepinize çok teşekkürler.",
             "2802": "Sagolun sevgili arkadaşlar🤗 Alper sen de sağol🤗 Birlikte nice mutlu doğum günleri kutlarız umarim",
             "0803": "Teşekkür ediyorum 🙏🙏🙏",
-            "1003": "Çok teşekkür ederim hepinize canlarım. 🌺"
+            "1003": "Çok teşekkür ederim hepinize canlarım. 🌺",
+            "1203": "Teşekkür ederim dostlarım iyi ki varsınız ❤️",
+            "1703": "🤩 Arkadaşlar hepinize tek tek yürekten sevgilerimi gönderiyorum, iyiki varsınız , teşekkürler ♥️🥰" 
         };
         const imageDate = filename.substring(0, 4);
         const motto = mottos[imageDate] || "Mesajını bekliyoruz.";
