@@ -85,7 +85,9 @@ document.addEventListener('DOMContentLoaded', () => {
         "1203": "Teşekkür ederim dostlarım iyi ki varsınız ❤️",
         "1703": "🤩 Arkadaşlar hepinize tek tek yürekten sevgilerimi gönderiyorum, iyiki varsınız , teşekkürler ♥️🥰",
         "2303": "Hepinize ayrı ayrı teşekkür ederim. Yıllardır aynı dileği tutuyorum, bu sefer olacak!",
-        "2703": "Güzel dilekleriniz için çok teşekkürler arkadaşlar🙏🏻🙏🏻🧿iyi ki varsınız hepinizi çok seviyorum🧿❤️❤️🤘🏻🤘🏻"
+        "2703": "Güzel dilekleriniz için çok teşekkürler arkadaşlar🙏🏻🙏🏻🧿iyi ki varsınız hepinizi çok seviyorum🧿❤️❤️🤘🏻🤘🏻",
+        "0104": "... ev hapsindeyim, kelepçelerimle kutluyorum doğum günümü 😩 Doğum günümü kutlayan kutlamayan tüm arkadaşlarım çok teşekkür ediyorum 🙏",
+        "0404": "Harika mesajlarınızla 🌟 doğum günümü 🎂 kutladığınız için çok teşekkür ederim!  Hepinizi sevgiyle 💗 kucaklıyorum , iyi ki varsınız!"
     };
 
     document.querySelectorAll('.month-images img').forEach(image => {
@@ -190,7 +192,9 @@ document.addEventListener('click', (event) => {
             "1203": "Teşekkür ederim dostlarım iyi ki varsınız ❤️",
             "1703": "🤩 Arkadaşlar hepinize tek tek yürekten sevgilerimi gönderiyorum, iyiki varsınız , teşekkürler ♥️🥰",
             "2303": "Hepinize ayrı ayrı teşekkür ederim. Yıllardır aynı dileği tutuyorum, bu sefer olacak!",
-            "2703": "Güzel dilekleriniz için çok teşekkürler arkadaşlar🙏🏻🙏🏻🧿iyi ki varsınız hepinizi çok seviyorum🧿❤️❤️🤘🏻🤘🏻"
+            "2703": "Güzel dilekleriniz için çok teşekkürler arkadaşlar🙏🏻🙏🏻🧿iyi ki varsınız hepinizi çok seviyorum🧿❤️❤️🤘🏻🤘🏻",
+            "0104": "... ev hapsindeyim, kelepçelerimle kutluyorum doğum günümü 😩 Doğum günümü kutlayan kutlamayan tüm arkadaşlarım çok teşekkür ediyorum 🙏",
+            "0404": "Harika mesajlarınızla 🌟 doğum günümü 🎂 kutladığınız için çok teşekkür ederim!  Hepinizi sevgiyle 💗 kucaklıyorum , iyi ki varsınız!"
         };
         const imageDate = filename.substring(0, 4);
         const motto = mottos[imageDate] || "Mesajını bekliyoruz.";
