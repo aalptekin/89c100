@@ -12,7 +12,7 @@ const images = [
 '0803_645_UENER.JPG', '1003_484_BOZTURK.JPG', '1203_173_CTAMAM.JPG', 
 '1603_220_APALABIYIK.JPG', '1703_619_TYALCIN.JPG', 
 '2303_643_DBOZBEY.JPG', '2703_631_VPEK.JPG', '2803_177_OMERAY.JPG', 
-'0104_623_NGULNAR.JPG', '0404_140_EACIMIS.JPG', '0504_235_SOZDIL.JPG', 
+'0104_623_NGULNAR.JPG', '0404_140_EACIMIS.JPG', '0504_235_SOZDIL.JPG', '0704_183_FNOYUN.JPG', '0804_172_ZKOZACIOGLU.JPG',
 '1004_629_CKUCUKCAN.JPG', '1204_192_TUTKU.JPG', '1404_209_TKUTLU.JPG', 
 '1804_169_SCELEBI.JPG', '1904_229_DOZKUL.JPG', '2404_462_HKOCATURK.JPG', 
 '0705_608_OAPAYDIN.JPG', '2705_630_MCANBERK.JPG', 
@@ -87,7 +87,13 @@ document.addEventListener('DOMContentLoaded', () => {
         "2303": "Hepinize ayrı ayrı teşekkür ederim. Yıllardır aynı dileği tutuyorum, bu sefer olacak!",
         "2703": "Güzel dilekleriniz için çok teşekkürler arkadaşlar🙏🏻🙏🏻🧿iyi ki varsınız hepinizi çok seviyorum🧿❤️❤️🤘🏻🤘🏻",
         "0104": "... ev hapsindeyim, kelepçelerimle kutluyorum doğum günümü 😩 Doğum günümü kutlayan kutlamayan tüm arkadaşlarım çok teşekkür ediyorum 🙏",
-        "0404": "Harika mesajlarınızla 🌟 doğum günümü 🎂 kutladığınız için çok teşekkür ederim!  Hepinizi sevgiyle 💗 kucaklıyorum , iyi ki varsınız!"
+        "0404": "Harika mesajlarınızla 🌟 doğum günümü 🎂 kutladığınız için çok teşekkür ederim!  Hepinizi sevgiyle 💗 kucaklıyorum , iyi ki varsınız!",
+        "0504": "Kardeslerim iyi dilekleriniz icin cok tesekkurler. Size de mutluluklar ve saglikli nice yaslar dilerim 😍",
+        "0704": "Arkadaşlar güzel dilekleriniz için hepinize teşekkür ederim. Hep beraber nice güzel yıllar inşallah.",
+        "0804": "Herkese çok çok teşekkür ederiz... nice mutlu güzel yıllara. Bu da minik Sait Aras🥰🥰",
+        "1004": "Arkadaşlar hepinize tekrar teşekkür ederim. Eksik olmayın🙏",
+        "1204": "Arkadaşlar hepinize doğumgünü mesajlarınız için çok teşekkür ediyorum. Hepimizin sağlıklı nice mutlu yılları olsun 😘",
+        "1404": "Sağolun canlar. İyi ki varsınız.❤️😘🙏🙏"
     };
 
     document.querySelectorAll('.month-images img').forEach(image => {
@@ -185,16 +191,22 @@ document.addEventListener('click', (event) => {
 
         // Get motto
         const mottos = {
-            "2302": "Yaş 54 oluvermiş bile, zaman öyle hızlı ilerlemeye başladı ki yakalamak mümkün değil. Önümüzde sağlıkla yaşayacağımız yılların kıymetini bilip, anın keyfini sonuna kadar hep birlikte çıkarmak dileğiyle hepinize çok teşekkürler.",
-            "2802": "Sagolun sevgili arkadaşlar🤗 Alper sen de sağol🤗 Birlikte nice mutlu doğum günleri kutlarız umarim",
-            "0803": "Teşekkür ediyorum 🙏🙏🙏",
-            "1003": "Çok teşekkür ederim hepinize canlarım. 🌺",
-            "1203": "Teşekkür ederim dostlarım iyi ki varsınız ❤️",
-            "1703": "🤩 Arkadaşlar hepinize tek tek yürekten sevgilerimi gönderiyorum, iyiki varsınız , teşekkürler ♥️🥰",
-            "2303": "Hepinize ayrı ayrı teşekkür ederim. Yıllardır aynı dileği tutuyorum, bu sefer olacak!",
-            "2703": "Güzel dilekleriniz için çok teşekkürler arkadaşlar🙏🏻🙏🏻🧿iyi ki varsınız hepinizi çok seviyorum🧿❤️❤️🤘🏻🤘🏻",
-            "0104": "... ev hapsindeyim, kelepçelerimle kutluyorum doğum günümü 😩 Doğum günümü kutlayan kutlamayan tüm arkadaşlarım çok teşekkür ediyorum 🙏",
-            "0404": "Harika mesajlarınızla 🌟 doğum günümü 🎂 kutladığınız için çok teşekkür ederim!  Hepinizi sevgiyle 💗 kucaklıyorum , iyi ki varsınız!"
+        "2302": "Yaş 54 oluvermiş bile, zaman öyle hızlı ilerlemeye başladı ki yakalamak mümkün değil. Önümüzde sağlıkla yaşayacağımız yılların kıymetini bilip, anın keyfini sonuna kadar hep birlikte çıkarmak dileğiyle hepinize çok teşekkürler.",
+        "2802": "Sagolun sevgili arkadaşlar🤗 Alper sen de sağol🤗 Birlikte nice mutlu doğum günleri kutlarız umarim",
+        "0803": "Teşekkür ediyorum 🙏🙏🙏",
+        "1003": "Çok teşekkür ederim hepinize canlarım. 🌺",
+        "1203": "Teşekkür ederim dostlarım iyi ki varsınız ❤️",
+        "1703": "🤩 Arkadaşlar hepinize tek tek yürekten sevgilerimi gönderiyorum, iyiki varsınız , teşekkürler ♥️🥰",
+        "2303": "Hepinize ayrı ayrı teşekkür ederim. Yıllardır aynı dileği tutuyorum, bu sefer olacak!",
+        "2703": "Güzel dilekleriniz için çok teşekkürler arkadaşlar🙏🏻🙏🏻🧿iyi ki varsınız hepinizi çok seviyorum🧿❤️❤️🤘🏻🤘🏻",
+        "0104": "... ev hapsindeyim, kelepçelerimle kutluyorum doğum günümü 😩 Doğum günümü kutlayan kutlamayan tüm arkadaşlarım çok teşekkür ediyorum 🙏",
+        "0404": "Harika mesajlarınızla 🌟 doğum günümü 🎂 kutladığınız için çok teşekkür ederim!  Hepinizi sevgiyle 💗 kucaklıyorum , iyi ki varsınız!",
+        "0504": "Kardeslerim iyi dilekleriniz icin cok tesekkurler. Size de mutluluklar ve saglikli nice yaslar dilerim 😍",
+        "0704": "Arkadaşlar güzel dilekleriniz için hepinize teşekkür ederim. Hep beraber nice güzel yıllar inşallah.",
+        "0804": "Herkese çok çok teşekkür ederiz... nice mutlu güzel yıllara. Bu da minik Sait Aras🥰🥰",
+        "1004": "Arkadaşlar hepinize tekrar teşekkür ederim. Eksik olmayın🙏",
+        "1204": "Arkadaşlar hepinize doğumgünü mesajlarınız için çok teşekkür ediyorum. Hepimizin sağlıklı nice mutlu yılları olsun 😘",
+        "1404": "Sağolun canlar. İyi ki varsınız.❤️😘🙏🙏"
         };
         const imageDate = filename.substring(0, 4);
         const motto = mottos[imageDate] || "Mesajını bekliyoruz.";
