@@ -15,8 +15,8 @@ const images = [
 '0104_623_NGULNAR.JPG', '0404_140_EACIMIS.JPG', '0504_235_SOZDIL.JPG', '0704_183_FNOYUN.JPG', '0804_172_ZKOZACIOGLU.JPG',
 '1004_629_CKUCUKCAN.JPG', '1204_192_TUTKU.JPG', '1404_209_TKUTLU.JPG', 
 '1704_169_SCELEBI.JPG', '1904_229_DOZKUL.JPG', '2404_462_HKOCATURK.JPG', 
-'0705_608_OAPAYDIN.JPG', '2705_630_MCANBERK.JPG', 
-'1606_193_CSARAYDAR.JPG', '2106_430_BOZBASOGLU.JPG', '2206_232_FTOPALOGLU.JPG', 
+'0505_213_SKESMEN.JPG', '0705_608_OAPAYDIN.JPG', '2705_630_MCANBERK.JPG', 
+'0106_626_EARMAN.JPG', '1606_193_CSARAYDAR.JPG', '2106_430_BOZBASOGLU.JPG', '2206_232_FTOPALOGLU.JPG', 
 '2706_614_BUKET.JPG', '2706_197_VGEMICI.JPG', 
 '0207_174_OKUTEVU.JPG', '0407_431_NKAVRAR.JPG', '0907_171_UAYSALAR.JPG', 
 '1107_176_SSOLMAZER.JPG', '1307_224_BIZ.JPG', '1907_175_GSARAC.JPG', 
@@ -94,7 +94,9 @@ document.addEventListener('DOMContentLoaded', () => {
         "1004": "Arkadaşlar hepinize tekrar teşekkür ederim. Eksik olmayın🙏",
         "1204": "Arkadaşlar hepinize doğumgünü mesajlarınız için çok teşekkür ediyorum. Hepimizin sağlıklı nice mutlu yılları olsun 😘",
         "1404": "Sağolun canlar. İyi ki varsınız.❤️😘🙏🙏",
-        "1704": "Sevgili dostlar, nazik mesajlarınız ve iyi dilekleriniz için çok teşekkür ederim. Ben de Studio 54 e katılmış bulunuyorum. Ercan a sordum içerisi güzel dedi. Bakalım yarından itibaren görücez. Hepinize sevgi ve selamlarımla 🤗❤️"
+        "1704": "Sevgili dostlar, nazik mesajlarınız ve iyi dilekleriniz için çok teşekkür ederim. Ben de Studio 54 e katılmış bulunuyorum. Ercan a sordum içerisi güzel dedi. Bakalım yarından itibaren görücez. Hepinize sevgi ve selamlarımla 🤗❤️",
+        "0505": "Sevgili Dostlar çok teşekkürler, güzel mesajlarınız için. Hepinize Allah sağlık sıhhat afiyet versin. Sabır versin. İyi insanlarla karşılaştırsın. Hıdırelleziniz kutlu olsun. Sevgiler, saygılar, selamlar.",
+        "0106": ""
     };
 
     document.querySelectorAll('.month-images img').forEach(image => {
@@ -208,7 +210,9 @@ document.addEventListener('click', (event) => {
         "1004": "Arkadaşlar hepinize tekrar teşekkür ederim. Eksik olmayın🙏",
         "1204": "Arkadaşlar hepinize doğumgünü mesajlarınız için çok teşekkür ediyorum. Hepimizin sağlıklı nice mutlu yılları olsun 😘",
         "1404": "Sağolun canlar. İyi ki varsınız.❤️😘🙏🙏",
-        "1704": "Sevgili dostlar, nazik mesajlarınız ve iyi dilekleriniz için çok teşekkür ederim. Ben de Studio 54 e katılmış bulunuyorum. Ercan a sordum içerisi güzel dedi. Bakalım yarından itibaren görücez. Hepinize sevgi ve selamlarımla 🤗❤️"
+        "1704": "Sevgili dostlar, nazik mesajlarınız ve iyi dilekleriniz için çok teşekkür ederim. Ben de Studio 54 e katılmış bulunuyorum. Ercan a sordum içerisi güzel dedi. Bakalım yarından itibaren görücez. Hepinize sevgi ve selamlarımla 🤗❤️",
+        "0505": "Sevgili Dostlar çok teşekkürler, güzel mesajlarınız için. Hepinize Allah sağlık sıhhat afiyet versin. Sabır versin. İyi insanlarla karşılaştırsın. Hıdırelleziniz kutlu olsun. Sevgiler, saygılar, selamlar.",
+        "0106": ""
         };
         const imageDate = filename.substring(0, 4);
         const motto = mottos[imageDate] || "Mesajını bekliyoruz.";
