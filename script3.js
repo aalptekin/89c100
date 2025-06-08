@@ -96,7 +96,7 @@ document.addEventListener('DOMContentLoaded', () => {
         "1404": "Sağolun canlar. İyi ki varsınız.❤️😘🙏🙏",
         "1704": "Sevgili dostlar, nazik mesajlarınız ve iyi dilekleriniz için çok teşekkür ederim. Ben de Studio 54 e katılmış bulunuyorum. Ercan a sordum içerisi güzel dedi. Bakalım yarından itibaren görücez. Hepinize sevgi ve selamlarımla 🤗❤️",
         "0505": "Sevgili Dostlar çok teşekkürler, güzel mesajlarınız için. Hepinize Allah sağlık sıhhat afiyet versin. Sabır versin. İyi insanlarla karşılaştırsın. Hıdırelleziniz kutlu olsun. Sevgiler, saygılar, selamlar.",
-        "0106": ""
+        "0106": "Çok çok teşekkür ederim 💕🙏 duyuruyu çok meşgul ettim  biliyorum 🤭 ama herkese kalpten teşekkürler gonderiyorum 🥰🙏💕"
     };
 
     document.querySelectorAll('.month-images img').forEach(image => {
@@ -212,7 +212,7 @@ document.addEventListener('click', (event) => {
         "1404": "Sağolun canlar. İyi ki varsınız.❤️😘🙏🙏",
         "1704": "Sevgili dostlar, nazik mesajlarınız ve iyi dilekleriniz için çok teşekkür ederim. Ben de Studio 54 e katılmış bulunuyorum. Ercan a sordum içerisi güzel dedi. Bakalım yarından itibaren görücez. Hepinize sevgi ve selamlarımla 🤗❤️",
         "0505": "Sevgili Dostlar çok teşekkürler, güzel mesajlarınız için. Hepinize Allah sağlık sıhhat afiyet versin. Sabır versin. İyi insanlarla karşılaştırsın. Hıdırelleziniz kutlu olsun. Sevgiler, saygılar, selamlar.",
-        "0106": ""
+        "0106": "Çok çok teşekkür ederim 💕🙏 duyuruyu çok meşgul ettim  biliyorum 🤭 ama herkese kalpten teşekkürler gonderiyorum 🥰🙏💕"
         };
         const imageDate = filename.substring(0, 4);
         const motto = mottos[imageDate] || "Mesajını bekliyoruz.";

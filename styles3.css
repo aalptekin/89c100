@@ -68,3 +68,11 @@ img.enlarged {
     z-index: 1000; /* Ensure it appears above other elements */
     position: relative; /* Ensure proper layering */
 }
+
+#tagcanvas {
+    display: block;
+    margin: 0 auto;
+    background: transparent;
+}
+
+
