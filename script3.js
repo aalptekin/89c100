@@ -19,7 +19,7 @@ const images = [
 '0106_626_EARMAN.JPG', '1606_193_CSARAYDAR.JPG', '2106_430_BOZBASOGLU.JPG', '2206_232_FTOPALOGLU.JPG', 
 '2706_614_BUKET.JPG', '2706_197_VGEMICI.JPG', 
 '0207_174_OKUTEVU.JPG', '0407_431_NKAVRAR.JPG', '0907_171_UAYSALAR.JPG', 
-'1107_176_SSOLMAZER.JPG', '1307_224_BIZ.JPG', '1907_175_GSARAC.JPG', 
+'1107_176_SSOLMAZER.JPG', '1307_224_BIZ.JPG', '1607_622_EINANIR.JPG', '1907_175_GSARAC.JPG', 
 '0308_211_SCANTURK.JPG', '1308_122_OGURMAN.JPG', '2308_219_SURAL.JPG', 
 '2508_178_AKOCAK.JPG', '2708_185_AALPTEKIN.JPG', '2808_196_STANGERLI.JPG', 
 '0109_186_TODABASI.JPG', '0609_179_AOZOLMEZ.JPG', '0909_634_ISAYIN.JPG', 
@@ -101,7 +101,8 @@ document.addEventListener('DOMContentLoaded', () => {
         "2106": "Canlar hepinizi cok seviyorum opuyorum. Sagolun iyiki varsiniz",
         "2206": "Güzel dilekleriniz için çok teşekkür ederim dostlar. İyi ki varsınız. 🙏🏻🙏🏻🙏🏻",
         "2706": "Buket -> Sevmek güzel , sevilmek daha güzel 💕",
-        "0207": "Sağolun Canlar 👋 Teşekkürler 👋"
+        "0207": "Sağolun Canlar 👋 Teşekkürler 👋",
+        "0407": "Doğum günü kutlamalariniz için hepinize teşekkür ediyorum. İyi ki varsınız! Bu arada, müthiş bir doğum günü sürprizi oldu! Yıllar sonra Cengiz ile karşılaştık! 🧿"
     };
 
     document.querySelectorAll('.month-images img').forEach(image => {
@@ -222,7 +223,8 @@ document.addEventListener('click', (event) => {
         "2106": "Canlar hepinizi cok seviyorum opuyorum. Sagolun iyiki varsiniz",
         "2206": "Güzel dilekleriniz için çok teşekkür ederim dostlar. İyi ki varsınız. 🙏🏻🙏🏻🙏🏻",
         "2706": "Buket -> Sevmek güzel , sevilmek daha güzel 💕",
-        "0207": "Sağolun Canlar 👋 Teşekkürler 👋"
+        "0207": "Sağolun Canlar 👋 Teşekkürler 👋",
+        "0407": "Doğum günü kutlamalariniz için hepinize teşekkür ediyorum. İyi ki varsınız! Bu arada, müthiş bir doğum günü sürprizi oldu! Yıllar sonra Cengiz ile karşılaştık! 🧿"
         };
         const imageDate = filename.substring(0, 4);
         const motto = mottos[imageDate] || "Mesajını bekliyoruz.";
