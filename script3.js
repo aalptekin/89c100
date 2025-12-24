@@ -134,12 +134,12 @@ document.addEventListener('DOMContentLoaded', () => {
         "2011" :"Mesajını bekliyoruz.\n\nDoğum gününü paylaşan ünlüler ; Kerem Alışık ve Joel McHale ",
         "2511" :"Mesajını bekliyoruz.\n\nDoğum gününü paylaşan ünlüler ; Göksel ve Christina Applegate ",
         "2811" :"Mesajını bekliyoruz.\n\nDoğum gününü paylaşan ünlüler ; Ebru Akel ve Ed Harris",
-        "0212" :"Mesajını bekliyoruz.\n\nDoğum gününü paylaşan ünlüler ; Yasemin Kozanoğlu ve Britney Spears",
-        "1512" :"Mesajını bekliyoruz.\n\nDoğum gününü paylaşan ünlüler ; Seray Sever ve Don Johnson",
+        "0212" :"Canlar hepinizi öpüyorum, hep beraber nice sağlıklı mutlu yaşlar olsun.\n\nDoğum gününü paylaşan ünlüler ; Yahya Kemal Beyatlı ve Britney Spears",
+        "1512" :"Çok tatlısınız ya. Ne kadar renkli, keyifli dostlarım, kardeşlerim var. En büyük zenginliğimsiniz.  ❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️\n\nDoğum gününü paylaşan ünlüler ; Necati Şaşmaz ve Don Johnson",
         "1812" :"Mesajını bekliyoruz.\n\nDoğum gününü paylaşan ünlüler ; Gonca Vuslateri ve Brad Pitt",
-        "1912" :"Mesajını bekliyoruz.\n\nDoğum gününü paylaşan ünlüler ; Keremcem ve Alyssa Milano",
+        "1912" :"Çoook teşekkürler canlar🥰🥰Herkese çok teşekkür ederim 🙏🏻❤️😘\n\nDoğum gününü paylaşan ünlüler ; Müge Anlı ve Jennifer Beals",
         "2012" :"Mesajını bekliyoruz.\n\nDoğum gününü paylaşan ünlüler ; Sezen Aksu ve JoJo",
-        "2312" :"Mesajını bekliyoruz.\n\nDoğum gününü paylaşan ünlüler ; Demet Akbağ ve Finn Wolfhard",
+        "2312" :"Çok teşekkür ederim arkadaşlar sizleri seviyorum ❤️ Herkese çok teşekkür ederim hayat sizlerle güzel\n\nDoğum gününü paylaşan ünlüler ; Demet Akbağ ve Carla Bruni",
         "2512" :"Mesajını bekliyoruz.\n\nDoğum gününü paylaşan ünlüler ; Müge Boz ve Annie Lennox",
         "2712" :"Mesajını bekliyoruz.\n\nDoğum gününü paylaşan ünlüler ; Neslihan Yeldan ve Timothée Chalamet"
     };
@@ -295,12 +295,12 @@ document.addEventListener('click', (event) => {
         "2011" :"Mesajını bekliyoruz.\n\nDoğum gününü paylaşan ünlüler ; Kerem Alışık ve Joel McHale ",
         "2511" :"Mesajını bekliyoruz.\n\nDoğum gününü paylaşan ünlüler ; Göksel ve Christina Applegate ",
         "2811" :"Mesajını bekliyoruz.\n\nDoğum gününü paylaşan ünlüler ; Ebru Akel ve Ed Harris",
-        "0212" :"Mesajını bekliyoruz.\n\nDoğum gününü paylaşan ünlüler ; Yasemin Kozanoğlu ve Britney Spears",
-        "1512" :"Mesajını bekliyoruz.\n\nDoğum gününü paylaşan ünlüler ; Seray Sever ve Don Johnson",
+        "0212" :"Canlar hepinizi öpüyorum, hep beraber nice sağlıklı mutlu yaşlar olsun.\n\nDoğum gününü paylaşan ünlüler ; Yahya Kemal Beyatlı ve Britney Spears",
+        "1512" :"Çok tatlısınız ya. Ne kadar renkli, keyifli dostlarım, kardeşlerim var. En büyük zenginliğimsiniz.  ❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️\n\nDoğum gününü paylaşan ünlüler ; Necati Şaşmaz ve Don Johnson",
         "1812" :"Mesajını bekliyoruz.\n\nDoğum gününü paylaşan ünlüler ; Gonca Vuslateri ve Brad Pitt",
-        "1912" :"Mesajını bekliyoruz.\n\nDoğum gününü paylaşan ünlüler ; Keremcem ve Alyssa Milano",
+        "1912" :"Çoook teşekkürler canlar🥰🥰Herkese çok teşekkür ederim 🙏🏻❤️😘\n\nDoğum gününü paylaşan ünlüler ; Müge Anlı ve Jennifer Beals",
         "2012" :"Mesajını bekliyoruz.\n\nDoğum gününü paylaşan ünlüler ; Sezen Aksu ve JoJo",
-        "2312" :"Mesajını bekliyoruz.\n\nDoğum gününü paylaşan ünlüler ; Demet Akbağ ve Finn Wolfhard",
+        "2312" :"Çok teşekkür ederim arkadaşlar sizleri seviyorum ❤️ Herkese çok teşekkür ederim hayat sizlerle güzel\n\nDoğum gününü paylaşan ünlüler ; Demet Akbağ ve Carla Bruni",
         "2512" :"Mesajını bekliyoruz.\n\nDoğum gününü paylaşan ünlüler ; Müge Boz ve Annie Lennox",
         "2712" :"Mesajını bekliyoruz.\n\nDoğum gününü paylaşan ünlüler ; Neslihan Yeldan ve Timothée Chalamet"
         };
