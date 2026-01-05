@@ -140,8 +140,8 @@ document.addEventListener('DOMContentLoaded', () => {
         "1912" :"Çoook teşekkürler canlar🥰🥰Herkese çok teşekkür ederim 🙏🏻❤️😘\n\nDoğum gününü paylaşan ünlüler ; Müge Anlı ve Jennifer Beals",
         "2012" :"Mesajını bekliyoruz.\n\nDoğum gününü paylaşan ünlüler ; Sezen Aksu ve JoJo",
         "2312" :"Çok teşekkür ederim arkadaşlar sizleri seviyorum ❤️ Herkese çok teşekkür ederim hayat sizlerle güzel\n\nDoğum gününü paylaşan ünlüler ; Demet Akbağ ve Carla Bruni",
-        "2512" :"Çok teşekkür ederim arkadaşlarım💕🙏🏻 hayat sizinle güzel ve hep 17 😃🥰 Hep birlikte sağlıkla huzurla inşallah\n\nDoğum gününü paylaşan ünlüler ; Timothée Chalamet ve Şair, Besteci Mehmet Akif Ersoy",
-        "2712" :"Mesajını bekliyoruz.\n\nDoğum gününü paylaşan ünlüler ; Neslihan Yeldan ve Timothée Chalamet"
+        "2512" :"Çok teşekkür ederim arkadaşlarım💕🙏🏻 hayat sizinle güzel ve hep 17 😃🥰 Hep birlikte sağlıkla huzurla inşallah\n\nDoğum gününü paylaşan ünlüler ; Humphrey Bogart, Murat Bardakçı",
+        "2712" :"Mesajını bekliyoruz.\n\nDoğum gününü paylaşan ünlüler ; Besteci Mehmet Akif Ersoy ve Timothée Chalamet"
     };
 
     document.querySelectorAll('.month-images img').forEach(image => {
@@ -301,8 +301,8 @@ document.addEventListener('click', (event) => {
         "1912" :"Çoook teşekkürler canlar🥰🥰Herkese çok teşekkür ederim 🙏🏻❤️😘\n\nDoğum gününü paylaşan ünlüler ; Müge Anlı ve Jennifer Beals",
         "2012" :"Mesajını bekliyoruz.\n\nDoğum gününü paylaşan ünlüler ; Sezen Aksu ve JoJo",
         "2312" :"Çok teşekkür ederim arkadaşlar sizleri seviyorum ❤️ Herkese çok teşekkür ederim hayat sizlerle güzel\n\nDoğum gününü paylaşan ünlüler ; Demet Akbağ ve Carla Bruni",
-        "2512" :"Çok teşekkür ederim arkadaşlarım💕🙏🏻 hayat sizinle güzel ve hep 17 😃🥰 Hep birlikte sağlıkla huzurla inşallah\n\nDoğum gününü paylaşan ünlüler ; Timothée Chalamet ve Şair, Besteci Mehmet Akif Ersoy",
-        "2712" :"Mesajını bekliyoruz.\n\nDoğum gününü paylaşan ünlüler ; Neslihan Yeldan ve Timothée Chalamet"
+        "2512" :"Çok teşekkür ederim arkadaşlarım💕🙏🏻 hayat sizinle güzel ve hep 17 😃🥰 Hep birlikte sağlıkla huzurla inşallah\n\nDoğum gününü paylaşan ünlüler ; Humphrey Bogart, Murat Bardakçı",
+        "2712" :"Mesajını bekliyoruz.\n\nDoğum gününü paylaşan ünlüler ; Besteci Mehmet Akif Ersoy ve Timothée Chalamet"
         };
         const imageDate = filename.substring(0, 4);
         const motto = mottos[imageDate] || "Mesajını bekliyoruz.";
