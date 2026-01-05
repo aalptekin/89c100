@@ -78,6 +78,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Define mottos for each image (example mappings)
     const mottos = {
+        "0401" :"Cok sagolun, var olun Tesekkurler\n\nDoğum gününü paylaşan ünlüler ; Isaac Newton ve Öner Erkan ",
+        "0501" :"Mesajını bekliyoruz.\n\nDoğum gününü paylaşan ünlüler ; Bradley Cooper ve Erdal Beşikçioğlu ",
+        "2001" :"Mesajını bekliyoruz.\n\nDoğum gününü paylaşan ünlüler ; ",
+        "2101" :"Mesajını bekliyoruz.\n\nDoğum gününü paylaşan ünlüler ; ",
+        "0602" :"Mesajını bekliyoruz.\n\nDoğum gününü paylaşan ünlüler ; ",
+        "0902" :"Mesajını bekliyoruz.\n\nDoğum gününü paylaşan ünlüler ; ",
+        "1002" :"Mesajını bekliyoruz.\n\nDoğum gününü paylaşan ünlüler ; ",
+        "1202" :"Mesajını bekliyoruz.\n\nDoğum gününü paylaşan ünlüler ; ",
+        "1402" :"Mesajını bekliyoruz.\n\nDoğum gününü paylaşan ünlüler ; ",
         "2302": "Yaş 54 oluvermiş bile, zaman öyle hızlı ilerlemeye başladı ki yakalamak mümkün değil. Önümüzde sağlıkla yaşayacağımız yılların kıymetini bilip, anın keyfini sonuna kadar hep birlikte çıkarmak dileğiyle hepinize çok teşekkürler.\n\nDoğum gününü paylaşan ünlüler ; Hande Doğandemir ve Dakota Fanning",
         "2802": "Sagolun sevgili arkadaşlar🤗 Alper sen de sağol🤗 Birlikte nice mutlu doğum günleri kutlarız umarim\n\nDoğum gününü paylaşan ünlüler ; Çağla Şıkel ve Daniel Craig",
         "0803": "Teşekkür ediyorum 🙏🙏🙏 \n\nDoğum gününü paylaşan ünlüler ; Ekin Koç ve Freddie Prinze Jr.",
@@ -239,6 +248,15 @@ document.addEventListener('click', (event) => {
 
         // Get motto
         const mottos = {
+        "0401" :"Cok sagolun, var olun Tesekkurler\n\nDoğum gününü paylaşan ünlüler ; Isaac Newton ve Öner Erkan ",
+        "0501" :"Mesajını bekliyoruz.\n\nDoğum gününü paylaşan ünlüler ; Bradley Cooper ve Erdal Beşikçioğlu ",
+        "2001" :"Mesajını bekliyoruz.\n\nDoğum gününü paylaşan ünlüler ; ",
+        "2101" :"Mesajını bekliyoruz.\n\nDoğum gününü paylaşan ünlüler ; ",
+        "0602" :"Mesajını bekliyoruz.\n\nDoğum gününü paylaşan ünlüler ; ",
+        "0902" :"Mesajını bekliyoruz.\n\nDoğum gününü paylaşan ünlüler ; ",
+        "1002" :"Mesajını bekliyoruz.\n\nDoğum gününü paylaşan ünlüler ; ",
+        "1202" :"Mesajını bekliyoruz.\n\nDoğum gününü paylaşan ünlüler ; ",
+        "1402" :"Mesajını bekliyoruz.\n\nDoğum gününü paylaşan ünlüler ; ",
         "2302": "Yaş 54 oluvermiş bile, zaman öyle hızlı ilerlemeye başladı ki yakalamak mümkün değil. Önümüzde sağlıkla yaşayacağımız yılların kıymetini bilip, anın keyfini sonuna kadar hep birlikte çıkarmak dileğiyle hepinize çok teşekkürler.\n\nDoğum gününü paylaşan ünlüler ; Hande Doğandemir ve Dakota Fanning",
         "2802": "Sagolun sevgili arkadaşlar🤗 Alper sen de sağol🤗 Birlikte nice mutlu doğum günleri kutlarız umarim\n\nDoğum gününü paylaşan ünlüler ; Çağla Şıkel ve Daniel Craig",
         "0803": "Teşekkür ediyorum 🙏🙏🙏 \n\nDoğum gününü paylaşan ünlüler ; Ekin Koç ve Freddie Prinze Jr.",
