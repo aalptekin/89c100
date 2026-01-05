@@ -140,7 +140,7 @@ document.addEventListener('DOMContentLoaded', () => {
         "1912" :"Çoook teşekkürler canlar🥰🥰Herkese çok teşekkür ederim 🙏🏻❤️😘\n\nDoğum gününü paylaşan ünlüler ; Müge Anlı ve Jennifer Beals",
         "2012" :"Mesajını bekliyoruz.\n\nDoğum gününü paylaşan ünlüler ; Sezen Aksu ve JoJo",
         "2312" :"Çok teşekkür ederim arkadaşlar sizleri seviyorum ❤️ Herkese çok teşekkür ederim hayat sizlerle güzel\n\nDoğum gününü paylaşan ünlüler ; Demet Akbağ ve Carla Bruni",
-        "2512" :"Mesajını bekliyoruz.\n\nDoğum gününü paylaşan ünlüler ; Müge Boz ve Annie Lennox",
+        "2512" :"Çok teşekkür ederim arkadaşlarım💕🙏🏻 hayat sizinle güzel ve hep 17 😃🥰 Hep birlikte sağlıkla huzurla inşallah\n\nDoğum gününü paylaşan ünlüler ; Timothée Chalamet ve Şair, Besteci Mehmet Akif Ersoy",
         "2712" :"Mesajını bekliyoruz.\n\nDoğum gününü paylaşan ünlüler ; Neslihan Yeldan ve Timothée Chalamet"
     };
 
@@ -301,7 +301,7 @@ document.addEventListener('click', (event) => {
         "1912" :"Çoook teşekkürler canlar🥰🥰Herkese çok teşekkür ederim 🙏🏻❤️😘\n\nDoğum gününü paylaşan ünlüler ; Müge Anlı ve Jennifer Beals",
         "2012" :"Mesajını bekliyoruz.\n\nDoğum gününü paylaşan ünlüler ; Sezen Aksu ve JoJo",
         "2312" :"Çok teşekkür ederim arkadaşlar sizleri seviyorum ❤️ Herkese çok teşekkür ederim hayat sizlerle güzel\n\nDoğum gününü paylaşan ünlüler ; Demet Akbağ ve Carla Bruni",
-        "2512" :"Mesajını bekliyoruz.\n\nDoğum gününü paylaşan ünlüler ; Müge Boz ve Annie Lennox",
+        "2512" :"Çok teşekkür ederim arkadaşlarım💕🙏🏻 hayat sizinle güzel ve hep 17 😃🥰 Hep birlikte sağlıkla huzurla inşallah\n\nDoğum gününü paylaşan ünlüler ; Timothée Chalamet ve Şair, Besteci Mehmet Akif Ersoy",
         "2712" :"Mesajını bekliyoruz.\n\nDoğum gününü paylaşan ünlüler ; Neslihan Yeldan ve Timothée Chalamet"
         };
         const imageDate = filename.substring(0, 4);
