@@ -79,7 +79,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Define mottos for each image (example mappings)
     const mottos = {
         "0401" :"Cok sagolun, var olun Tesekkurler\n\nDoğum gününü paylaşan ünlüler ; Isaac Newton ve Öner Erkan ",
-        "0501" :"Mesajını bekliyoruz.\n\nDoğum gününü paylaşan ünlüler ; Bradley Cooper ve Erdal Beşikçioğlu ",
+        "0501" :"Canım arkadaşlarım desem diyemem , doğru olmaz. Yetersiz kalır .Canım dostlarım desem diyemem , doğru olmaz. Kifayeti vurgulamaz. Kiminizle 44 yıl , kiminizle 49 yıl , her ikiside yarımasır.Çok kıymetli , çok kadim ilişki Canım KARDEŞLERİM, Doğum günümde attığınız her mesaj , ağzınızdan çıkan her güzel söz inanın kalbime dokundu. Yarım asırlık giderek kuvvetlenen bir kardeşlik, aynı sıralardan , aynı hayallerden, aynı hayat telaşından geçtik birlikte Bugün dönüp geriye baktığımda hayatımın en kıymetli parçalarından birisinin sizleri tanımak olduğunu bir kez daha hissettim. İyi ki varsınız, iyi ki birlikte büyüdük. İyi ki aynı yollarda koştuk. Stand by me filminden alınan bir alıntı ile bitirmek istiyorum. ‘12 yaşındayken sahip olduğun arkadaşları bir daha asla bulamazsın’ Her birinize kucak dolusu sevgi ve öpücükler. İyi ki varsınız\n\nDoğum gününü paylaşan ünlüler ; Bradley Cooper ve Erdal Beşikçioğlu ",
         "2001" :"Mesajını bekliyoruz.\n\nDoğum gününü paylaşan ünlüler ; ",
         "2101" :"Mesajını bekliyoruz.\n\nDoğum gününü paylaşan ünlüler ; ",
         "0602" :"Mesajını bekliyoruz.\n\nDoğum gününü paylaşan ünlüler ; ",
@@ -249,7 +249,7 @@ document.addEventListener('click', (event) => {
         // Get motto
         const mottos = {
         "0401" :"Cok sagolun, var olun Tesekkurler\n\nDoğum gününü paylaşan ünlüler ; Isaac Newton ve Öner Erkan ",
-        "0501" :"Mesajını bekliyoruz.\n\nDoğum gününü paylaşan ünlüler ; Bradley Cooper ve Erdal Beşikçioğlu ",
+        "0501" :"Canım arkadaşlarım desem diyemem , doğru olmaz. Yetersiz kalır .Canım dostlarım desem diyemem , doğru olmaz. Kifayeti vurgulamaz. Kiminizle 44 yıl , kiminizle 49 yıl , her ikiside yarımasır.Çok kıymetli , çok kadim ilişki Canım KARDEŞLERİM, Doğum günümde attığınız her mesaj , ağzınızdan çıkan her güzel söz inanın kalbime dokundu. Yarım asırlık giderek kuvvetlenen bir kardeşlik, aynı sıralardan , aynı hayallerden, aynı hayat telaşından geçtik birlikte Bugün dönüp geriye baktığımda hayatımın en kıymetli parçalarından birisinin sizleri tanımak olduğunu bir kez daha hissettim. İyi ki varsınız, iyi ki birlikte büyüdük. İyi ki aynı yollarda koştuk. Stand by me filminden alınan bir alıntı ile bitirmek istiyorum. ‘12 yaşındayken sahip olduğun arkadaşları bir daha asla bulamazsın’ Her birinize kucak dolusu sevgi ve öpücükler. İyi ki varsınız\n\nDoğum gününü paylaşan ünlüler ; Bradley Cooper ve Erdal Beşikçioğlu ",
         "2001" :"Mesajını bekliyoruz.\n\nDoğum gününü paylaşan ünlüler ; ",
         "2101" :"Mesajını bekliyoruz.\n\nDoğum gününü paylaşan ünlüler ; ",
         "0602" :"Mesajını bekliyoruz.\n\nDoğum gününü paylaşan ünlüler ; ",
